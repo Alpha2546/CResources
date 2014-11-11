@@ -1,20 +1,22 @@
 {
   "context": "client",
-  "identifier": "nl.pa.Alpha.CPlosion",
-  "display_name": "CPlosion V2",
-  "description": "Changes explosion for land,air,naval and orbital units into cool looking teamcoloured ones!",
+  "identifier": "nl.pa.Alpha.CResources",
+  "display_name": "CResources",
+  "description": "changes and adds particles effects to powerplants, extractors and storage buildings",
   "author": "Alpha2546",
-  "version": "2.1.0",
-  "build": "73939",
-  "date": "2014/10/23",
+  "version": "1.0",
+  "build": "74525",
+  "date": "2014/11/11",
   "signature": "not yet implemented",
   "forum": "https://forums.uberent.com/threads/rel-cplosion-mod.65157/",
-  "icon": "http://s1.postimg.org/alefdd1yz/CPlosion.jpg?noCache=1414088361",
+  "icon": "http://s2.postimg.org/6wie5qiyd/CResources.jpg",
   "category": [
 	  "in-game",
 	  "shader",
 	  "colours",
-	  "explosion"
+	  "particles",
+	  "effects",
+	  "buildings",
     ],
   "priority": 100
 }
