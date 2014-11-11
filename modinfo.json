@@ -16,7 +16,7 @@
 	  "colours",
 	  "particles",
 	  "effects",
-	  "buildings",
+	  "buildings"
     ],
   "priority": 100
 }
