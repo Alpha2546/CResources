@@ -1,0 +1,109 @@
+{
+  "options": {
+    "output_dir": ".",
+    "pretty_print_effects": true,
+    "indent": 2
+  },
+  "modinfo": {
+    "context": "client",
+    "identifier": "nl.pa.Alpha.CResources",
+    "display_name": "CResources",
+    "description": "changes and adds particles effects to powerplants, extractors and storage buildings",
+    "author": "Alpha2546",
+    "version": "1.1",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/rel-cresources.65932/",
+    "icon": "http://s2.postimg.org/6wie5qiyd/CResources.jpg",
+    "category": [
+      "in-game",
+      "shader",
+      "colours",
+      "particles",
+      "effects",
+      "buildings"
+    ],
+    "priority": 100
+  },
+  "mod": [
+    {
+      "target": "pa/units/land/energy_storage/energy_storage.json",
+      "patch": [
+        {
+          "op": "add",
+          "path": "/fx_offsets",
+          "value": [
+            {
+              "type": "idle",
+              "filename": "/pa/units/land/energy_storage/energy_storage.pfx",
+              "offset": [
+                0,
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "pa/units/land/metal_extractor/metal_extractor.json",
+      "patch": [
+        {
+          "op": "add",
+          "path": "/fx_offsets",
+          "value": [
+            {
+              "type": "idle",
+              "filename": "/pa/units/land/metal_extractor/metal_extractor_idle.pfx",
+              "offset": [
+                0,
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "pa/units/land/metal_extractor_adv/metal_extractor_adv.json",
+      "patch": [
+        {
+          "op": "add",
+          "path": "/fx_offsets",
+          "value": [
+            {
+              "type": "idle",
+              "filename": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.pfx",
+              "offset": [
+                0,
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "pa/units/land/metal_storage/metal_storage.json",
+      "patch": [
+        {
+          "op": "add",
+          "path": "/fx_offsets",
+          "value": [
+            {
+              "type": "idle",
+              "filename": "/pa/units/land/metal_storage/metal_storage.pfx",
+              "offset": [
+                0,
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
